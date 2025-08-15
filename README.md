@@ -33,9 +33,12 @@ I haven't played with the author's image conversion tool, yet.
 
 Remember, for this we are using the original IWADS (ones in H+H's base folder, and also applies to hexdd.wad).
 
-Heretic EX: heretic.wad + heretic_ex.wad + heretic_rr_ex-gz-port.pk3
-Heretic FR: heretic.wad + heretic_fr.wad + heretic_rr_ex-gz-port.pk3
+**Heretic EX**: heretic.wad + heretic_ex.wad + heretic_rr_ex-gz-port.pk3
 
-Hexen EX: hexen.wad + hexen_ex.wad + hexen_rr_ex-gz-port.pk3
-Hexdd EX: hexen.wad + hexdd.wad + hexdd_ex.wad + hexen_rr_ex-gz-port.pk3
-Hexen VoG: hexen.wad + hexen_vog.wad + hexen_rr_ex-gz-port.pk3
+**Heretic FR**: heretic.wad + heretic_fr.wad + heretic_rr_ex-gz-port.pk3
+
+**Hexen EX**: hexen.wad + hexen_ex.wad + hexen_rr_ex-gz-port.pk3
+
+**Hexdd EX**: hexen.wad + hexdd.wad + hexdd_ex.wad + hexen_rr_ex-gz-port.pk3
+
+**Hexen VoG**: hexen.wad + hexen_vog.wad + hexen_rr_ex-gz-port.pk3
