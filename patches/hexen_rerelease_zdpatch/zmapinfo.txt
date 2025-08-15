@@ -5,7 +5,7 @@ DoomEdNums {
     3101 = LushXmasTree
     3102 = LushShrub1
     3103 = LushShrub2
-    3104 = HexenChronicle
+    3104 = BrassTorch
     3105 = BloodFont
 
     // Puzzle Artifacts

@@ -1,0 +1,8 @@
+// Original IWAD Replacements (see notes)
+DoomEdNums
+{
+  3101 = "MummyLeader"
+  3102 = "Clink"
+  3103 = "Snake"
+  3104 = "SkullRod"
+}

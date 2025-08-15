@@ -1,0 +1,113 @@
+# Setup
+create outwad
+load inwad iwads/hexen_new.wad
+
+# Copy sprites
+
+# Start Marker
+mergeentry outwad S_START inwad
+
+# ------------------
+# Map Marker
+mergeentry outwad MARKA0 inwad
+# Decor, Trees
+mergeentry outwad XMASA0 inwad
+mergeentry outwad XMASB0 inwad
+mergeentry outwad XMASC0 inwad
+mergeentry outwad XMASD0 inwad
+mergeentry outwad XMASE0 inwad
+mergeentry outwad XMASF0 inwad
+mergeentry outwad XMASG0 inwad
+mergeentry outwad XMASH0 inwad
+mergeentry outwad XMASI0 inwad
+mergeentry outwad XMASJ0 inwad
+mergeentry outwad XMASK0 inwad
+mergeentry outwad XMS2A0 inwad
+mergeentry outwad XMS2B0 inwad
+mergeentry outwad XMS2C0 inwad
+mergeentry outwad XMS2D0 inwad
+mergeentry outwad XMS2E0 inwad
+mergeentry outwad XMS2F0 inwad
+# Decor, Shrubs
+mergeentry outwad SHB1A0 inwad
+mergeentry outwad SHB1B0 inwad
+mergeentry outwad SHB1C0 inwad
+mergeentry outwad SHB1D0 inwad
+mergeentry outwad SHB2A0 inwad
+mergeentry outwad SHB2B0 inwad
+mergeentry outwad SHB2C0 inwad
+mergeentry outwad SHB2D0 inwad
+mergeentry outwad SHB2E0 inwad
+mergeentry outwad SHB3A0 inwad
+mergeentry outwad SHB3B0 inwad
+mergeentry outwad SHB4A0 inwad
+mergeentry outwad SHB4B0 inwad
+# Decor, Blood Fountain
+mergeentry outwad BLFNA0 inwad
+mergeentry outwad BLFNB0 inwad
+mergeentry outwad BLFNC0 inwad
+mergeentry outwad BLFND0 inwad
+# Puzzle Items
+mergeentry outwad ACRDA0 inwad
+mergeentry outwad ACRGA0 inwad
+mergeentry outwad ACRWA0 inwad
+mergeentry outwad AMSIA0 inwad
+mergeentry outwad AMSIB0 inwad
+mergeentry outwad AMSSA0 inwad
+mergeentry outwad AMSSB0 inwad
+mergeentry outwad AMSSC0 inwad
+mergeentry outwad ACH1A0 inwad
+mergeentry outwad ACH2A0 inwad
+mergeentry outwad ACH3A0 inwad
+mergeentry outwad ACH4A0 inwad
+mergeentry outwad ACH5A0 inwad
+mergeentry outwad AID1A0 inwad
+mergeentry outwad AID2A0 inwad
+mergeentry outwad AID3A0 inwad
+mergeentry outwad ABK1A0 inwad
+mergeentry outwad ABK2A0 inwad
+mergeentry outwad ABK3A0 inwad
+mergeentry outwad ABK4A0 inwad
+mergeentry outwad PCH1A0 inwad
+mergeentry outwad PCH1B0 inwad
+mergeentry outwad PCH2A0 inwad
+mergeentry outwad PCH2B0 inwad
+mergeentry outwad PCH3A0 inwad
+mergeentry outwad PCH3B0 inwad
+mergeentry outwad PCH4A0 inwad
+mergeentry outwad PCH4B0 inwad
+mergeentry outwad PCH5A0 inwad
+mergeentry outwad PCH5B0 inwad
+mergeentry outwad PID1A0 inwad
+mergeentry outwad PID1B0 inwad
+mergeentry outwad PID2A0 inwad
+mergeentry outwad PID2B0 inwad
+mergeentry outwad PID3A0 inwad
+mergeentry outwad PID3B0 inwad
+# Puzzle Item, Icons
+mergeentry outwad ARTIACH1 inwad
+mergeentry outwad ARTIACH2 inwad
+mergeentry outwad ARTIACH3 inwad
+mergeentry outwad ARTIACH4 inwad
+mergeentry outwad ARTIACH5 inwad
+mergeentry outwad ARTIACRD inwad
+mergeentry outwad ARTIACRG inwad
+mergeentry outwad ARTIACRW inwad
+mergeentry outwad ARTIAMSI inwad
+mergeentry outwad ARTIAMSS inwad
+mergeentry outwad ARTIAID1 inwad
+mergeentry outwad ARTIAID2 inwad
+mergeentry outwad ARTIAID3 inwad
+mergeentry outwad ARTIBOK3 inwad
+mergeentry outwad ARTIBOK4 inwad
+mergeentry outwad ARTIBOK1 inwad
+mergeentry outwad ARTIBOK2 inwad
+
+# End Marker
+mergeentry outwad S_END inwad
+# ------------------
+
+# Save
+discard inwad
+finish outwad rr_ex_sprites.wad
+end

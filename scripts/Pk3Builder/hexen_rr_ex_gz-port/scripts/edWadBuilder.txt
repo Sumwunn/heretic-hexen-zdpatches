@@ -1,0 +1,15 @@
+# Setup
+create outwad
+load inwad iwads/hexen_new.wad
+
+# ------------------
+
+# Copy music info
+mergeentry outwad TRAKINFO inwad
+
+# ------------------
+
+# Save
+discard inwad
+finish outwad rr_ex_extradata.wad
+end

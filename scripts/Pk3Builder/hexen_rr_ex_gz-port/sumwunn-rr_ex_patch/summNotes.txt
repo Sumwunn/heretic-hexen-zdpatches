@@ -1,0 +1,12 @@
+----- Hexen RR -----
+
+New DoomEds
+
+- 3300 (TelOtherSpot)
+- 3200 (MapMarkerGeneric)
+- 3104 (HexenChronicle)
+- 3119 (PuzzCrestGriffin)
+- 3118 (PuzzCrestWolf)
+- 3117 (PuzzCrestDragon)
+
+- 3104 replaced with BrassTorch (not worth the effort)

@@ -1,0 +1,21 @@
+----- Heretic RR -----
+
+Errors
+
+- Missing 'TEETH9' texture message (doesn't seem to be an actual missing texture; replaced with blank)
+
+----- Heretic FR -----
+
+New DoomEds
+
+Monsters
+
+- 3101 (Drauger; replaced with MummyLeader)
+
+- 3102 (Troll; replaced with Clink)
+
+- 3103 (SuperDemon; replaced with Snake)
+
+Weapons
+
+- 3104 (Tempest Wand; replaced with SkullRod)
