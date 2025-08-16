@@ -42,3 +42,11 @@ Remember, for this we are using the original IWADS (ones in H+H's base folder, a
 **Hexdd EX**: hexen.wad + hexdd.wad + hexdd_ex.wad + hexen_rr_ex-gz-port.pk3
 
 **Hexen VoG**: hexen.wad + hexen_vog.wad + hexen_rr_ex-gz-port.pk3
+
+# New Music
+
+1. Download TrakPlayer mod: https://www.moddb.com/mods/trakplayer
+2. Add TrakPlayer.pk3, heretic_mus_orig.wad, and heretic_mus_remix.wad to load order (Hexen works the same).
+3. Music should work, and you can swap between Remix & MIDI in GZDoom's Sound Options (requires map reload or next map).
+
+Additionally, the changemus command works. Using it without parameters shows the track name (remix starts with R_; midi with O_). Can swap accordingly.
