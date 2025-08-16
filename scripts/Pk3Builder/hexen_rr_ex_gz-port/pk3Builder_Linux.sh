@@ -25,3 +25,4 @@ $DOOMTOOLS_DIR/wadmerge scripts/edWadBuilder.txt
 rm $TEXTURES_WAD_NAME
 rm $SPRITES_WAD_NAME
 rm $EXTRADATA_WAD_NAME
+echo "Done"

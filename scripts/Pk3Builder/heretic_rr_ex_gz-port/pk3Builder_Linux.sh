@@ -20,3 +20,4 @@ $DOOMTOOLS_DIR/wadmerge scripts/edWadBuilder.txt
 # Cleanup
 rm $TEXTURES_WAD_NAME
 rm $EXTRADATA_WAD_NAME
+echo "Done"
