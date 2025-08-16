@@ -13,13 +13,13 @@ set SPRITES_WAD_NAME=rr_ex_sprites.wad
 set EXTRADATA_WAD_NAME=rr_ex_extradata.wad
 
 REM Build Textures WAD
-call "%DIR_DOOMTOOLS%\wtexlist" iwads\hexen_new.wad ^ | call "%DIR_DOOMTOOLS%\wtexport" iwads\hexen_new.wad --base-wad iwads\hexen_orig.wad --output %TEXTURES_WAD_NAME% --create
+call "%DIR_DOOMTOOLS%\wtexlist.cmd" iwads\hexen_new.wad ^ | call "%DIR_DOOMTOOLS%\wtexport.cmd" iwads\hexen_new.wad --base-wad iwads\hexen_orig.wad --output %TEXTURES_WAD_NAME% --create
 
 REM Build Sprites WAD
-call "%DIR_DOOMTOOLS%\wadmerge" scripts\spriteWadBuilder.txt
+call "%DIR_DOOMTOOLS%\wadmerge.cmd" scripts\spriteWadBuilder.txt
 
 REM Build Extra Data WAD
-call "%DIR_DOOMTOOLS%\wadmerge" scripts\edWadBuilder.txt
+call "%DIR_DOOMTOOLS%\wadmerge.cmd" scripts\edWadBuilder.txt
 
 REM Make PK3
 "%DIR_7Z%\7z.exe" a -tzip -mx=5 -mm=Deflate hexen_rr_ex-gz-port.pk3 .\sumwunn-rr_ex_patch\* ..\..\..\patches\hexen_rerelease_zdpatch\* %TEXTURES_WAD_NAME% %SPRITES_WAD_NAME% %EXTRADATA_WAD_NAME%
